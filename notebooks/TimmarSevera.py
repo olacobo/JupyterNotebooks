@@ -4,8 +4,7 @@ import plotly.express as px
 pd.options.mode.chained_assignment = None
 
 raw_df = pd.read_excel(
-    #'C:/Projekt/PycharmProjects/TimanalysSevera/data/timmar.xlsx',
-    './data/timmar.xlsx',
+    '../data/timmar.xlsx',
     sheet_name='timmar',
     header=0)
 
